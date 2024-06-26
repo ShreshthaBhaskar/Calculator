@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col1">
+            <input type="text" id="input">
+        </div>
+        <div class="col2">
+            <div class="n7"><button type="submit" id="n7" class="btn" value="7" onclick="getValue7()">7</button>  </div>
+            <div class="n8"><button type="submit" id="n8" class="btn" value="8" onclick="getValue8()">8</button></div>
+            <div class="n9"><button type="submit" id="n9" class="btn" value="9" onclick="getValue9()">9</button></div>
+            <div class="mul"><button type="submit" id="mul" class="btn" value="*"  onclick="getValuemul()">X</button></div>
+            <div class="n7"><button type="submit" id="n4" class="btn" value="4"  onclick="getValue4()">4</button>  </div>
+            <div class="n8"><button type="submit" id="n5" class="btn" value="5"  onclick="getValue5()">5</button></div>
+            <div class="n9"><button type="submit" id="n6" class="btn" value="6"  onclick="getValue6()">6</button></div>
+            <div class="mul"><button type="submit" id="sub" class="btn" value="-"  onclick="getValuesub()">-</button></div>
+            <div class="n7"><button type="submit" id="n1" class="btn" value="1"  onclick="getValue1()">1</button>  </div>
+            <div class="n8"><button type="submit" id="n2" class="btn" value="2"  onclick="getValue2()">2</button></div>
+            <div class="n9"><button type="submit" id="n3" class="btn" value="3" onclick="getValue3()">3</button></div>
+            <div class="mul"><button type="submit" id="sum" class="btn" value="+" onclick="getValueplus()">+</button></div>
+            <div class="n7"><button type="submit" id="n0" class="btn" value="0" onclick="getValue0()">0</button>  </div>
+            <div class="n8"><button type="submit" id="point" class="btn" value="." onclick="getValuepoint()">.</button></div>
+            <div class="n9"><button type="submit" id="ac" class="btn" onclick="AC()">AC</button></div>
+            <div class="mul"><button type="submit" id="equal" class="btn" onclick="getValueequal()">=</button></div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
