@@ -80,6 +80,17 @@ body{
     .container{
         margin: auto;
         padding: auto;
+        width: 40%;
+    }
+
+  }
+  @media only screen and (max-width: 730px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
         width: 44%;
     }
 
