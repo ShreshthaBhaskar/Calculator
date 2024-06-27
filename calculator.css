@@ -26,7 +26,127 @@ body{
     background-color: cyan;
     border-radius: 40%;
     padding: 15px;
-    width: 100%;
+    width: auto;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 400%;
 }
+@media only screen and (max-width: 1299px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 25%;
+    }
+
+  }
+  @media only screen and (max-width: 1162px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 27%;
+    }
+
+  }
+  @media only screen and (max-width: 1073px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 32%;
+    }
+
+  }@media only screen and (max-width: 908px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 35%;
+    }
+
+  }
+  @media only screen and (max-width: 831px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 44%;
+    }
+
+  }
+  @media only screen and (max-width: 664px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 51%;
+    }
+
+  }
+  @media only screen and (max-width: 576px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 59%;
+    }
+
+  }
+  @media only screen and (max-width: 500px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 69%;
+    }
+
+  }
+  @media only screen and (max-width: 430px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+  }
+  @media only screen and (max-width: 373px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 93%;
+    }
+
+  }
+  @media only screen and (max-width: 323px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .container{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+
+  }
